@@ -41,3 +41,13 @@ A secure banking backend REST API built with Spring Boot, Spring Security, and J
 
 ## Architecture
 Follows Controller → Service → Repository layered architecture with clear separation of concerns.
+
+## Project Structure
+src/main/java/com/vaibhav/bankapp/
+├── controller/    → REST API endpoints
+├── service/       → Business logic
+├── repository/    → Database operations
+├── entity/        → JPA entities
+├── dto/           → Data Transfer Objects
+├── security/      → JWT filter & config
+└── exception/     → Global exception handling
